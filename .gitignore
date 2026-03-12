@@ -1,0 +1,12 @@
+# Ignore virtual environment
+venv/
+
+# Ignore dataset
+deepfake_dataset/
+
+# Ignore trained model files
+*.pth
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
