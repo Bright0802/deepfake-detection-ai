@@ -25,13 +25,12 @@ The system can be further upgraded for video detection or web interface deployme
 ## Project Structure
 
 deepfake-detection-ai
-│
-├── train_model.py        # Script to train the CNN model for deepfake detection
-├── detect_deepfake.py    # Runs real-time webcam detection and classifies Real vs Deepfake
-├── dataset_collector.py  # Collects images for building the dataset
-├── camera_test.py        # Tests your webcam setup for capturing frames
-├── .gitignore            # Ensures large files (dataset, venv, model) are ignored by Git
-└── README.md             # This file – explains the project and instructions
+-  train_model.py        # Script to train the CNN model for deepfake detection
+-  detect_deepfake.py    # Runs real-time webcam detection and classifies Real vs Deepfake
+-  dataset_collector.py  # Collects images for building the dataset
+-  camera_test.py        # Tests your webcam setup for capturing frames
+-  .gitignore            # Ensures large files (dataset, venv, model) are ignored by Git
+-  README.md             # This file – explains the project and instructions
 
 ## Installation
 
